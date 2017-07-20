@@ -1,0 +1,42 @@
+{
+  "name": "what-the-commit",
+  "version": "1.0.0",
+  "description": "Generate Random Commit Messages!",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeDotJS/what-the-commit.git"
+  },
+  "author": "Rishi Giri <rushforlinux@gmail.com> (rishigiri.com)",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "keywords": [
+    "api",
+    "random",
+    "commit",
+    "messages"
+  ],
+  "dependencies": {
+    "got": "^5.7.1"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.2.2",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  },
+  "bugs": {
+    "url": "https://github.com/CodeDotJS/what-the-commit/issues"
+  },
+  "homepage": "https://github.com/CodeDotJS/what-the-commit#readme",
+  "main": "index.js"
+}
